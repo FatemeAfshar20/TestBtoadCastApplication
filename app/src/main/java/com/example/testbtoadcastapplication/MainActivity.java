@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
 
             public void bind(BroadcastInfo broadcastInfo) {
                 mType.setText(mType.getText() + broadcastInfo.getType());
-                mTime.setText(mType.getText().toString() + broadcastInfo.getTimestamp());
-                mEvent.setText(mType.getText() + broadcastInfo.getEvent());
+                mTime.setText(mTime.getText().toString() + broadcastInfo.getTimestamp());
+                mEvent.setText(mEvent.getText() + broadcastInfo.getEvent());
             }
         }
     }
